@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LineChart from './components/charts/line/LineChart';
+import BarChart from './components/charts/bar/BarChart';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <LineChart /> */}
+    <BarChart />
   </React.StrictMode>,
   document.getElementById('root')
 );
